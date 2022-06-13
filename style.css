@@ -1,0 +1,32 @@
+.heading {
+    font-size: 25px;
+    width: 100%;
+    box-shadow: 5px 5px 5px grey;
+    color: white;
+}
+
+.note {
+    font-size: 15px;
+    color: black;
+}
+
+.copy_right_footer {
+    background-color: black;
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+}
+
+canvas {
+    border: 5px solid white;
+    background-color: lightskyblue;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.body_background {
+    background-image: url("flake.jpg");
+    background-size: cover;
+}
