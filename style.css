@@ -24,6 +24,7 @@ canvas {
     border: 5px solid white;
     background-color: lightskyblue;
     box-shadow: 5px 5px 5px grey;
+    border-radius: 20px;
 }
 
 .body_background {
