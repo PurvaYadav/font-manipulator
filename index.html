@@ -1,34 +1,33 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <title>FONT MANIPULATOR </title>
+	<title>AI WEB APP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
 
   <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
-
-<body class= "body_background">
+<body class="background">
 <center>
-  <h3 class="btn btn-warning heading">FONT MANIPULATOR 
-    <br>
-    <span class="note">NOTE - Get your left and right wrist closer 
-      to eachother to reduce the font size and to increase the font size keep your left and right 
-      wrist far from each other.
-    </span>
-    <br>
-
-  </h3>
+<h3 class="btn btn-warning heading">AI MUSIC WEB APP
+	    <br>
+	    <span id="note">NOTE - Get your left-hand wrist in front of the web cam to play Peter Pan song. 
+        Get your right-hand wrist to play Harry Potter Theme song.
+      <br>
+      Keep at least 2 feet distance from the web cam , so that the wrists are detected quickly.
+      </span>
+  	</h3>
+	<br><br>
+  <button class="btn btn-danger" onclick="play()">Song Name</button>
 </center>
-<div class="copy_right_footer">
-  Developed By - WhiteHatJr  Team
-</div>
+
 <script src="main.js"></script>
 </body>
 </html>
-
-

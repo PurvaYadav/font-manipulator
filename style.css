@@ -1,33 +1,26 @@
 .heading {
-    font-size: 25px;
     width: 100%;
-    box-shadow: 5px 5px 5px grey;
-    color: white;
+    font-size: 20px;
 }
 
-.note {
-    font-size: 15px;
+#note {
     color: black;
+    font-size: 15px;
 }
 
-.copy_right_footer {
-    background-color: black;
-    position: fixed;
-    color: white;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    height: 30px;
+.background {
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
 }
 
 canvas {
     border: 5px solid white;
-    background-color: lightskyblue;
-    box-shadow: 5px 5px 5px grey;
-    border-radius: 20px;
-}
-
-.body_background {
-    background-image: url("flake.jpg");
-    background-size: cover;
+    box-shadow: 5px 5px 5px lightblue;
+    border-radius: 15px;
 }
